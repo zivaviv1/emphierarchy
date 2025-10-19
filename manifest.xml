@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Plugin PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Plugin displayName="Employee Hierarchy" minSystemVersion="7.1" name="emphierarchy" rightRequired="EmpHierarchyPluginRight" version="8.1.186">
+        	
+    
+    <Attributes>
+                		
+        
+        <Map>
+                        			
+            
+            <entry key="minUpgradableVersion" value="0.1"/>
+                        			
+            
+            <entry key="fullPage">
+                                				
+                
+                <value>
+                                        					
+                    
+                    <FullPage title="Employee Hierarchy"/>
+                                        				
+                
+                </value>
+                                			
+            
+            </entry>
+                        			
+            
+            <entry key="snippets">
+                                				
+                
+                <value>
+                                        					
+                    
+                    <List>
+                                                						
+                        
+                        <Snippet regexPattern="" rightRequired="EmpHierarchyPluginIconRight">
+                                                        							
+                            
+                            <Scripts>
+                                                                								
+                                
+                                <String>ui/js/headerInject.js</String>
+                                                                								
+                                
+                                <String>ui/js/DataController.js</String>
+                                                                								
+                                
+                                <String>ui/js/EmpHierarchyService.js</String>
+                                                                								
+                                
+                                <String>ui/js/TreeDirectives.js</String>
+                                                                							
+                            
+                            </Scripts>
+                                                        							
+                            
+                            <StyleSheets>
+                                                                								
+                                
+                                <String>ui/css/emptree.css</String>
+                                                                							
+                            
+                            </StyleSheets>
+                                                        						
+                        
+                        </Snippet>
+                                                					
+                    
+                    </List>
+                                        				
+                
+                </value>
+                                			
+            
+            </entry>
+                        			
+            
+            <entry key="restResources">
+                                				
+                
+                <value>
+                                        					
+                    
+                    <List>
+                                                						
+                        
+                        <String>sailpoint.fortuna.emphierarchy.rest.EmpHierarchyResource</String>
+                                                						
+                        
+                        <String>org.glassfish.jersey.media.multipart.MultiPartFeature</String>
+                                                					
+                    
+                    </List>
+                                        				
+                
+                </value>
+                                			
+            
+            </entry>
+                        			
+            
+            <entry key="settings">
+                                				
+                
+                <value>
+                                        					
+                    
+                    <List>
+                                                						
+                        
+                        <Setting dataType="string" defaultValue="department" helpText="department" label="department" name="attrName"/>
+                                                					
+                    
+                    </List>
+                                        				
+                
+                </value>
+                                			
+            
+            </entry>
+                        		
+        
+        </Map>
+                	
+    
+    </Attributes>
+        
+
+</Plugin>

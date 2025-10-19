@@ -1,0 +1,52 @@
+#emphierarchy @keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+#emphierarchy @-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+#emphierarchy .col-md-1-5 {
+	width:10%
+}
+#emphierarchy .page-title {
+	font-size: 16px;
+	font-weight: normal;
+	color: #7c8184;
+	text-align: left;
+	vertical-align: middle
+}
+
+#emphierarchy .healthOK {
+    color: #AAFFAA;
+}
+
+#emphierarchy .healthSuccess {
+	color: green;
+}
+
+
+#emphierarchy ul.tree {
+    list-style: none;
+}
+
+#emphierarchy ul.tree > li {
+    margin:10px;
+}
+
+#emphierarchy ul.tree > li > span {
+    cursor: pointer;
+}
+#emphierarchy .warnMessage {
+	color: #9F6000;
+	font-size:15px;	
+}
+
+#emphierarchy .errorMessage {
+	color: #D8000C;
+	font-size:15px;
+}
+
+
